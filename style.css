@@ -315,11 +315,18 @@ h1 span {
 }
 
 .more {
+  display: block;
   background-color: #5197d9;
-  width: 200px;
+  width: 190px;
   margin-left: 60%;
   margin-top: 70px;
   box-shadow: 1px 1px 3px #2f2f2f;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.more:hover{
+  box-shadow: none;
 }
 
 .more p {
