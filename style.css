@@ -1,0 +1,465 @@
+.shippori-mincho-regular {
+  font-family: "Shippori Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.shippori-mincho-semibold {
+  font-family: "Shippori Mincho", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.shippori-mincho-bold {
+  font-family: "Shippori Mincho", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.fadein {
+    opacity: 0;
+    transition: all 1.2s ease-out;
+}
+
+.fadein.show {
+    opacity: 1;
+}
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.flex2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+body {
+  background-color: #dce3ed;
+  width: 100%;
+}
+
+/* header */
+
+h1 a{
+  text-decoration: none;
+  color: #3e3e3e;
+}
+
+h1 span {
+  color: #2a4073;
+}
+
+.menu{
+  width: 600px;
+  align-items: center;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #1b1b1b;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.menu :hover{
+  color: #c3b047;
+}
+
+
+.contact {
+  position: relative;
+  background-color: #c3b047;
+  width: 250px;
+  height: 50px;
+  margin: 20px 0 0 0;
+  text-align: center;
+  box-shadow: #3d3d3d 1px 1px 5px;
+  transition: 0.2s;
+}
+
+.contact:hover{
+  box-shadow: none;
+}
+
+.contact p {
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  margin: 0;
+  color: rgb(34, 34, 34);
+}
+
+
+
+
+/* hyousi */
+
+.hyousi img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/* moj */
+
+#moji {
+  position: relative;
+}
+
+.disclive {
+  font-size: 70px;
+  margin: 0;
+  color: rgb(34, 34, 34)
+}
+
+.disclive2 {
+  margin: 150px 90px 0 90px;
+}
+
+
+.アーティロジー {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+  color: #2a4073;
+  font-size: 120px;
+  width: 840px;
+}
+
+.arti{
+  position: absolute;
+  top: 40%;
+  left: 16%;
+  transform: translate(-50%, -50%) translateX(-500px);
+  opacity: 0.3;
+  color: #2a4073;
+  font-size: 120px;
+  transition: all 2s ease;
+}
+
+.arti.show {
+  transform: translate(-50%, -50%) translateX(0);
+}
+
+.Logy {
+  position: absolute;
+  top: 40%;
+  left: 84%;
+  transform: translate(-50%, -50%) translateX(500px);
+  opacity: 0.3;
+  color: #2a4073;
+  font-size: 120px;
+  transition: all 2s ease;
+}
+
+.Logy.show {
+  transform: translate(-50%, -50%) translateX(0);
+}
+
+.A{
+  margin-top: 100px;
+}
+.AA {
+  text-align: center;
+  color: rgb(34, 34, 34);
+  font-size: 20px;
+}
+
+.line {
+  border-bottom: 3px solid rgb(34, 34, 34);
+  width: 70%;
+  margin: 100px auto;
+}
+
+/* 3っつの事業 */
+
+#jigyou h2 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 130px;
+}
+
+#jigyou h2 span {
+  font-size: 100px;
+}
+
+.box {
+  background-color: #2a4073;
+  border: 1px solid #dce3ed;
+  width: 33.333%;
+  text-align: center;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.box img {
+  width: 300px;
+  margin-bottom: 30px
+}
+
+.box .in_moji {
+  font-size: 30px;
+  color: #dce3ed;
+  margin-bottom: 80px;
+}
+
+.box .namber {
+  font-style: italic;
+  position: absolute;
+  top: -55%;
+  left: 45%;
+  opacity: 0.6;
+  color: #1b1b1b;
+  font-size: 120px;
+  z-index: 1;
+}
+
+
+
+/* jigyou2 */
+
+#jigyou2{
+  width: 80%;
+  margin: 50px auto 0 auto;
+}
+
+#jigyou2 ol li {
+  font-size: 25px;
+  margin: 10px;
+  line-height: 1.8;
+  color: rgb(34, 34, 34);
+}
+
+#jigyou2 img {
+  width: 400px;
+}
+
+
+
+
+.down-arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid rgb(34, 34, 34);
+  margin: 60px auto;
+}
+
+.border {
+  border: 3px solid rgb(34, 34, 34);
+  position: relative;
+}
+
+.border ul {
+  list-style: none;
+  text-align: center;
+}
+
+.border ul li {
+  font-size: 28px;
+  line-height: 2;
+  color: rgb(34, 34, 34);
+
+}
+
+.circle {
+  position: absolute;
+  top: -90%;
+  left: 85%;
+  border-radius: 50%;
+  background-color: #c3b047;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: rotate(20deg);
+  box-shadow:0 0 4px #606060;
+}
+
+.circle_moji {
+  font-size: 35px;
+  margin: 0;
+  text-shadow: 1px 1px 1px #dce3ed;
+  color: rgb(34, 34, 34);
+}
+
+.circle_no1 {
+  font-size: 90px;
+  margin: 0;
+  text-shadow: 1px 1px 1px #dce3ed;
+  border-bottom: 4px solid #1b1b1b;
+  color: rgb(34, 34, 34);
+}
+
+.more {
+  background-color: #5197d9;
+  width: 200px;
+  margin-left: 60%;
+  margin-top: 70px;
+  box-shadow: 1px 1px 3px #2f2f2f;
+}
+
+.more p {
+  text-align: center;
+  font-size: 35px;
+  color: #dce3ed;
+}
+
+
+/* 私たちについて */
+
+
+#we h2 {
+  font-size: 40px;
+  color: rgb(34, 34, 34);
+}
+
+#we img {
+  width: 100%;
+}
+
+.we_3 {
+  margin: 40px auto 130px auto;
+  width: 90%;
+  position: relative;
+}
+
+.we_3 h3 {
+  font-size: 50px;
+  color: rgb(34, 34, 34);
+}
+
+.we_3 p span {
+  display: inline-block;
+  font-size: 30px;
+  margin: 20px auto;
+  color: rgb(34, 34, 34);
+}
+
+.we_3 .we_3moji {
+  font-size: 25px;
+  color: rgb(34, 34, 34);
+  line-height: 2;
+}
+
+.we_3shadow {
+  position: absolute;
+  top: -15%;
+  left: 45%;
+  transform: translateX(200%);
+  font-size: 140px;
+  opacity: 0.3;
+  padding: 0;
+  margin: 0;
+  color: #2a4073;
+  font-style: italic;
+  transition: all 1s ease;
+}
+
+.we_3shadow.show{
+  transform: translateX(0);
+}
+
+/* 代表メッセージ */
+
+
+#we .daihyou img {
+  width: 380PX;
+}
+
+#we .daihyou h3 {
+  font-size: 35px;
+}
+
+#we .daihyou p {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+  font-size: 25px;
+}
+
+#we .daihyou div {
+  position: relative;
+}
+
+#we .daihyou_moji {
+  margin: 50px auto 100px auto;
+}
+
+#we .daihyou_moji p {
+  font-size: 20px;
+  line-height: 2.3;
+}
+
+
+/* fudder */
+
+#fudder {
+  background-color: #2a4073;
+  display: flow-root; /* 重要！相殺防止 */
+  margin-top:50px;
+}
+
+#fudder .fudder_line{
+  border-bottom: 1px solid #dce3ed;
+  width: 30%;
+  margin-top:40px;
+}
+
+#fudder .fudder_line2{
+  border-bottom: 1px solid #dce3ed;
+  width: 60%;
+  margin-top:20px;
+  margin-bottom:30px;
+}
+
+#fudder h4{
+  font-size:40px;
+  color:#dce3ed;
+  margin:10px 0 0 0 ;
+}
+
+#fudder .fudder_sub{
+  font-size: 20px;
+  color: #dce3ed;
+}
+
+#fudder .fudder_small a{
+  text-decoration: none;
+  color: #dce3ed;
+  margin:0 80px;
+  transition: 0.1s;
+}
+
+#fudder .fudder_small a:hover{
+  color: #c3b047;
+}
+
+#fudder .fudder_c{
+  text-align: center;
+  color: #dce3ed;
+  margin:40px 0 0 0;
+}
